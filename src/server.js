@@ -12,7 +12,7 @@ const app = express();
 app.use(cookieParser())
 app.use(cors(
     {
-        origin: ["https://djony-nfe.netlify.app"],
+        origin: ["https://nfesystem.guilhermejp.com/"],
         credentials: true,
     }
 ));
