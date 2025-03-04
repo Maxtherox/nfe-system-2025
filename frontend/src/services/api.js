@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: 'http://localhost:3334',
+  baseURL: 'https://backend-nfe-plataform-system.onrender.com',
   withCredentials: true
 });
