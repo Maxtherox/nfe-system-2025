@@ -12,7 +12,7 @@ const app = express();
 app.use(cookieParser())
 app.use(cors(
     {
-        origin: ["https://nfesystem.guilhermejp.com/"],
+        origin: ["https://nfesystem.guilhermejp.com"],
         credentials: true,
     }
 ));
